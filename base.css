@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    
     display: flex;
     justify-content: center;
 }
@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    
 }
 .main {
     display: flex;
@@ -20,11 +20,18 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
     padding: 10px 20px 0px;
 }
+.links {
+    list-style-type: none;
+    
+}
+.links li {
+    margin-bottom: 10px;
+}
 .header {
-    background-color: rgb(5, 108, 108);
+    display: flex;
+    justify-content: center;
     min-height: 150px;
 }
 .content {
@@ -32,7 +39,126 @@ body {
     min-height: 300px;
     padding: 20px;
 }
+
+.imagem {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.credits {
+    text-align: center;
+}
 .footer {
-    background-color: rgb(99, 56, 240);
+    display: flex;
+    justify-content: center;
+    text-align: center;
     min-height: 150px;
+}
+.dev {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para o texto do rodapé */
+.dev p {
+    margin: 0;
+}
+
+#services {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: justify;
+}
+
+h2 {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+#contact {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+#contact-form {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    display: inline-block;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
 }
